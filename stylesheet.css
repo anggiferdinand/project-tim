@@ -30,7 +30,10 @@
     font-size: 35px;
     font-family: Puritan;    
 }
+.message-wrapper {
 
+    text-align: center;
+}
 .message {
     position: absolute;
     width: 25%;
