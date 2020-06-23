@@ -70,3 +70,64 @@ header {
     letter-spacing: 0.02em;
     color:#DFF9FB;
 }
+
+.section-title {
+    position: absolute;
+    width: 494px;
+    height: 50px;
+    left: 473px;
+    top: 548px;
+    
+    font-family: Puritan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #B0413E;
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 grey;
+    border-radius: 15px;
+    padding: 2px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#image-contents-1 {
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 180px;
+top: 650px;
+
+background: url(image);
+border-radius: 25px;
+}
+
+#image-contents-2 {
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 600px;
+top: 650px;
+
+background: url(image);
+border-radius: 25px;
+}
+
+#image-contents-3 {
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 1020px;
+top: 650px;
+
+background: url(image);
+border-radius: 25px;
+}
