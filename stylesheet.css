@@ -54,3 +54,19 @@
     top: 9px;
     box-shadow: none;
 }
+header {
+    position: absolute;
+    width:360px;
+    height:90px;
+    padding-left:22px;
+    padding-top:2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color:#DFF9FB;
+}
