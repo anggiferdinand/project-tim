@@ -144,6 +144,7 @@ img {
     top: 9px;
     box-shadow: none;
 }
+
 footer{
     background-color:black;
     width:100%;
@@ -154,16 +155,4 @@ footer{
   }
   .footer-list li {                  
     padding-bottom: 20px;
-    font-family: Rubik Mono One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-    color: rgba(255, 255, 255, 0.8);
-    float: right;
-    padding-right:147px;
-    padding-left:50px;
-    padding-top:42px;
-   
-}
-  
+  }
