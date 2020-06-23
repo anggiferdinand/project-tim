@@ -82,7 +82,7 @@ header {
     position: absolute;
     width: 494px;
     height: 50px;
-    left: 473px;
+    left: 500px;
     top: 548px;
     
     font-family: Puritan;
@@ -108,33 +108,59 @@ header {
 
 #image-contents-1 {
     position: absolute;
-width: 240px;
-height: 240px;
-left: 180px;
-top: 650px;
+    width: 240px;
+    height: 240px;
+    left: 180px;
+    top: 650px;
 
-background: url(image);
-border-radius: 25px;
+    background: url(image);
+    border-radius: 25px;
 }
 
 #image-contents-2 {
     position: absolute;
-width: 240px;
-height: 240px;
-left: 600px;
-top: 650px;
+    width: 240px;
+    height: 240px;
+    left: 600px;
+    top: 650px;
 
 background: url(image);
 border-radius: 25px;
 }
 
+
+
 #image-contents-3 {
     position: absolute;
-width: 240px;
-height: 240px;
-left: 1020px;
-top: 650px;
+    width: 240px;
+    height: 240px;
+    left: 1020px;
+    top: 650px;
 
 background: url(image);
 border-radius: 25px;
+}
+
+.contents-item-1 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 220px;
+    top: 900px;    
+}
+
+.contents-item-2 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 640px;
+    top: 900px;    
+}
+
+.contents-item-3 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 1060px;
+    top: 900px;    
 }
