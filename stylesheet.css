@@ -31,12 +31,6 @@
     font-family: Puritan;    
 }
 
-.message-wrapper {
-    padding-bottom: 44px;
-    border-bottom: 1px solid #eee;
-    text-align: center;
-}
-
 .message {
     position: absolute;
     width: 25%;
