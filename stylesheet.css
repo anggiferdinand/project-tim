@@ -55,12 +55,13 @@
     box-shadow: none;
 }
 header {
+    width:100%;
     position: absolute;
     width:360px;
     height:90px;
     padding-left:22px;
     padding-top:2px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: ;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -68,7 +69,27 @@ header {
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.header-right {
+    float: right;
+    margin-right: 36px;
+}
+.header-left {
+    float: left;
+    margin-left:22px;
     color:#DFF9FB;
+}
+.header-right a {
+    line-height: 42px;
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
 }
 
 .section-title {
@@ -89,6 +110,27 @@ header {
     letter-spacing: 0.02em;
     
     color: #B0413E;
+}
+.footer-list {
+    position: absolute;
+    width: 1440px;
+    height: 139px;
+    left: 0px;
+    top: 1261px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.footer-list li {
+    position: absolute;
+    width: 62px;
+    height: 30px;
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
 .card {
