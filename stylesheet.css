@@ -14,6 +14,11 @@
 
 /*heading berjarak 141px dari main*/
 .heading {
+    position: absolute;
+    width: 100%;
+    height: 39px;
+    left: 0px;
+    top: 1044px;    
     text-align: center;
     color: #333333;
     padding-top: 141px;
@@ -28,12 +33,16 @@
 }
 
 .message-wrapper {
-    padding-bottom: 44px;
-    border-bottom: 1px solid #eee;
+
     text-align: center;
 }
 
 .message {
+    position: absolute;
+    width: 25%;
+    height: 50px;
+    left: 250px;
+    top: 1300px;    
     background-color: #219653;
     padding: 32px 320px;
     box-shadow: 0 9px #27ae60;
@@ -50,10 +59,12 @@
 
 /*animasi tombol subscribe*/
 .message:active {
-    position: relative;
-    top: 9px;
+    position: relative;  
+    left: -15px;
+    top: 1291px;
     box-shadow: none;
 }
+
 header {
     width:100%;
     position: absolute;
@@ -96,7 +107,7 @@ header {
     position: absolute;
     width: 494px;
     height: 50px;
-    left: 473px;
+    left: 500px;
     top: 548px;
     
     font-family: Puritan;
@@ -172,4 +183,28 @@ top: 650px;
 
 background: url(image);
 border-radius: 25px;
+}
+
+.contents-item-1 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 220px;
+    top: 900px;    
+}
+
+.contents-item-2 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 640px;
+    top: 900px;    
+}
+
+.contents-item-3 p {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 1060px;
+    top: 900px;    
 }
